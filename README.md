@@ -17,7 +17,7 @@ To join the Discord community, click the link [here](https://discord.gg/r6r7dttM
 ## Computer Setup Instructions
 
 This library is intended to be installed on the computer that interfaces with the Franka (we call this the Control PC).
-To use this library, refer to [FrankaPy](https://github.com/iamlab-cmu/frankapy), which can be run on any computer on the same ROS network and sends commands to `franka-interface`.
+To use this library, refer to [FrankaPy](https://github.com/unisa-acg/frankapy), which can be run on any computer on the same ROS network and sends commands to `franka-interface`.
 
 1. The Control PC should have an OS with real time kernel. The instructions for setting up a computer with the 18.04 Realtime Kernel from scratch are located here: [control pc ubuntu setup guide](old_docs/control_pc_ubuntu_setup_guide.md)
 2. Instructions for setting up the computer specifically for Franka Robots is located here: [franka control pc setup guide](old_docs/franka_control_pc_setup_guide.md)
@@ -47,7 +47,7 @@ See detailed instructions [here](https://github.com/protocolbuffers/protobuf/blo
 1. Clone Repo and its Submodules:
 
    ```bash
-   git clone --recurse-submodules https://github.com/iamlab-cmu/franka-interface.git   
+   git clone --recurse-submodules git@github.com:unisa-acg/franka-interface.git   
    cd franka-interface
    ```
    
