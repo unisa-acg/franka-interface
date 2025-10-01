@@ -91,7 +91,7 @@ class TerminationHandler {
   };
 
   // Create dist thresholds
-  const std::array<double, 7> dist_thresholds_ = std::array<double, 7>{0.11, 0.11, 0.08, 0.08, 0.07, 0.07, 0.1};
+  const std::array<double, 7> dist_thresholds_ = std::array<double, 7>{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
   // Franka Panda Joint Limits from https://frankaemika.github.io/docs/control_parameters.html
   const std::array<double, 7> max_joint_limits_ = std::array<double, 7>{2.88, 1.75, 2.88, -0.06, 2.88, 3.74, 2.88};
